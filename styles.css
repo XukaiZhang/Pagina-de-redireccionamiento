@@ -17,12 +17,13 @@ h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     font-size: 50px;
-    padding: 60px 0 40px 0;
+    padding: 300px 0 40px 0;
 }
 
 h2 {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
+    font-size: 30px;
 }
 
 main {
@@ -30,7 +31,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -60px;
+    margin-top: -300px;
 }
 
 #social-links {
@@ -119,21 +120,27 @@ main {
 @media (max-width: 768px) {
     h1 {
         font-size: 35px;
-        padding: 40px 20px 30px 20px;
+        padding: 80px 20px 30px 20px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
         padding: 0 20px;
     }
 
     main {
-        margin-top: -40px;
+        margin-top: -80px;
+    }
+
+    #social-links {
+        gap: 20px;
+        max-width: 320px;
+        padding: 0 20px;
     }
 
     .social-link {
-        width: 60px;
-        height: 60px;
-        font-size: 18px;
+        width: 65px;
+        height: 65px;
+        font-size: 22px;
     }
 }
